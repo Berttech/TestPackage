@@ -1,0 +1,21 @@
+{
+    "name": "berttech/test-package",
+    "description": "",
+    "authors": [
+        {
+            "name": "albert",
+            "email": "perry.albert@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Berttech\\TestPackage": "src/",
+	    "Helpers" : ""
+        }
+    },
+    "minimum-stability": "dev"
+}
