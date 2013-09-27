@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9059da6cb2958a4b4b65a220090944ab",
+    "hash": "f4f540b63f492e5d90f3d24afeba94a5",
     "packages": [
         {
             "name": "berttech/helper",
