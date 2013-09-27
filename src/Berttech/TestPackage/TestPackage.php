@@ -1,5 +1,5 @@
 <? namespace Berttech\TestPackage;
-use Helpers\Helper;
+use Berttech\Helper\Helper;
 class TestPackage implements TestPackageInterface {
 
     protected $helper;

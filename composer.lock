@@ -3,8 +3,34 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c6eac40b33d732f7569495a0ee4fb51e",
+    "hash": "9059da6cb2958a4b4b65a220090944ab",
     "packages": [
+        {
+            "name": "berttech/helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Berttech/Helper.git",
+                "reference": "9c9e865d1976369b9fe8fad795974df59a52acf0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Berttech/Helper/zipball/9c9e865d1976369b9fe8fad795974df59a52acf0",
+                "reference": "9c9e865d1976369b9fe8fad795974df59a52acf0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Berttech\\Helper": ""
+                }
+            },
+            "support": {
+                "source": "https://github.com/Berttech/Helper/tree/master",
+                "issues": "https://github.com/Berttech/Helper/issues"
+            },
+            "time": "2013-09-27 05:56:15"
+        },
         {
             "name": "illuminate/support",
             "version": "4.0.x-dev",
@@ -64,9 +90,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "berttech/helper": 20
+    },
     "platform": {
         "php": ">=5.3.0"
     },
