@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f4f540b63f492e5d90f3d24afeba94a5",
+    "hash": "fd7b38c797d3ff7f902ad229459c70d6",
     "packages": [
         {
             "name": "berttech/helper",
-            "version": "dev-master",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Berttech/Helper.git",
-                "reference": "9c9e865d1976369b9fe8fad795974df59a52acf0"
+                "reference": "5405313d26a2de853eb51af799ff309bf6cc415f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Berttech/Helper/zipball/9c9e865d1976369b9fe8fad795974df59a52acf0",
-                "reference": "9c9e865d1976369b9fe8fad795974df59a52acf0",
+                "url": "https://api.github.com/repos/Berttech/Helper/zipball/5405313d26a2de853eb51af799ff309bf6cc415f",
+                "reference": "5405313d26a2de853eb51af799ff309bf6cc415f",
                 "shasum": ""
             },
             "type": "library",
@@ -26,10 +26,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/Berttech/Helper/tree/master",
+                "source": "https://github.com/Berttech/Helper/tree/v0.0.1",
                 "issues": "https://github.com/Berttech/Helper/issues"
             },
-            "time": "2013-09-27 05:56:15"
+            "time": "2013-09-27 16:37:48"
         },
         {
             "name": "illuminate/support",
@@ -90,9 +90,9 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "berttech/helper": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": {
         "php": ">=5.3.0"
     },
